@@ -66,6 +66,10 @@
     opacity:0.9;
   }
   .hero-inner{position:relative;z-index:2;}
+  .portrait{
+     width:104px;height:104px;border-radius:50%;object-fit:cover;
+     border:2px solid var(--brass-light);margin-bottom:24px;display:block;
+   }
   .docket{
     font-family:var(--mono);font-size:12px;letter-spacing:0.1em;color:var(--brass-light);
     text-transform:uppercase;margin-bottom:20px;display:flex;gap:16px;flex-wrap:wrap;
@@ -193,7 +197,7 @@
 <header class="hero">
   <div class="grid-pattern"></div>
   <div class="container hero-inner">
-    <div class="docket">
+   <img src="photo.jpg" alt="Srinivasan" class="portrait"><div class="docket">
       <span>Docket — Legal Profile</span>
       <span>Kallakurichi, Tamil Nadu, India</span>
     </div>
